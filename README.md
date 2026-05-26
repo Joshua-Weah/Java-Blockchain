@@ -47,6 +47,7 @@ Blockchain valid: true
 
 ## Project structure
 
+```
 src/main/java/com/noobchain/
 ├── NoobChain.java          # Entry point — creates wallets, blocks, and transactions
 ├── Block.java              # Block structure with hashing, mining, and transactions
@@ -55,6 +56,7 @@ src/main/java/com/noobchain/
 ├── TransactionOutput.java  # Coins sent to a recipient as a result of a transaction
 ├── Wallet.java             # ECDSA key pair generation and balance tracking
 └── StringUtil.java         # SHA-256 hashing, ECDSA signing/verification, Merkle root
+```
 
 ---
 
